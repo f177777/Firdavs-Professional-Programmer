@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.respect {
+    color: #292929;
+    border-bottom: 3px solid #f1cdb1;
+
+}
+.header {
+    background-size: cover;
+  position: fixed;
+    z-index: 3;
+    top: 0;
+    opacity: 0.8;
+    width: 100%;
+    padding: 60px 0 30px;
+background-color: #292929;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.burger, .header__menu{
+    display: none;
+    display: none;
+}
+.company{
+    display: none;
+}
+
+.header__logo {
+    padding-bottom: 25px;
+
+}
+
+.header__h2 {
+    color: var(--color-primary, #F1CDB3);
+
+    font-family: Georgia;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    /* 35.2px */
+    letter-spacing: 1.92px;
+}
+
+.header__p {
+    color: var(--color-light-xl, #FFF);
+
+    /* logo_subtitle */
+    font-family: Arial;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.3px;
+}
+
+.header__a {
+    margin-left: 35px;
+    text-decoration: none;
+    color: var(--color-dark-s, #CDCDCD);
+    font-family: Arial;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 24px */
+}
+
+.friends{
+padding-top: 200px;
+    background-color:   #F6F6F6;
+}
+
+.friends__container{
+ display: flex;
+ gap: 36px;
+ margin: auto;
+ text-align: center;
+flex-wrap: wrap;
+}
+
+.friends__h3{
+    width: 400px;
+    margin: auto;
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+    margin-bottom: 60px;
+}
+
+.card{
+    background: #FAFAFA;
+    width: 270px;
+    height: 500px;
+   
+    
+}
+
+.katrine__h4{
+    font-family: Georgia;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0.06em;
+text-align: center;
+padding: 30px;
+}
+
+.card__katrine:hover, .card__jenifer:hover, .card__woody:hover, .card__sophia:hover{
+    background-color: #ffff;
+    box-shadow: 0 0 15px #c2c2c2;
+    border-radius: 10px;
+}
+
+.katrine__a{
+    border-radius: 100px;
+    border: 2px solid #F1CDB3;
+    padding: 15px 45px;
+    width: 187px;
+    height: 20px;
+    color: var(--color-dark-3xl, #292929);
+    font-family: Georgia;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 22.1px */
+    letter-spacing: 1.02px;
+    text-decoration: none;
+  
+
+}
+.friends__div2{
+padding-top: 50px;
+}
+
+.card__katrine{
+    height: 414px;
+}
+
+.card__timmy:hover, .card__charly:hover, .card__scarlet:hover, .card__freddie:hover{
+    background-color: #ffff;
+    box-shadow: 0 0 15px #c2c2c2;
+    border-radius: 10px;
+}
+
+.card__timmy{
+    height: 414px;
+}
+
+.navigation{
+    width: 340px;
+    height: 52px;
+    display: flex;
+    margin: auto;
+   gap: 20px;
+   padding: 100px 0px;
+}
+.card__nav1, .card__nav4, .card__nav5{
+    width: 52px;
+    height: 52px;
+   
+  
+    border: 2px solid #CDCDCD;
+    border-radius:  100%;
+
+}
+.card1__h1{
+    text-align: center;
+    margin: auto;
+ padding-top: 10px;
+
+font-family: Georgia;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0.06em;
+text-align: center;
+
+}
+.card1__a{
+    text-decoration: none;
+    color: #000;
+}
+
+.card__nav3{
+    width: 52px;
+    height: 52px;
+    background: #F1CDB3;
+
+border-radius: 100%;
+}
+
+.card__nav4, .card__nav5{
+    border: 2px solid #F1CDB3;
+}
+
+
+.footer{
+    background-image: url(./img/footer/footer-background\ \(1\).png);
+    background-size: cover;
+}
+.footer__div{
+    display: flex;
+    justify-self: space-between;
+}
+.footer__container{
+    padding-top: 60px;
+    display: flex;
+justify-content: space-around;
+}
+
+.footer-mini-div{
+    display: flex;
+    gap: 20px;
+padding: 20px 0px;
+}
+.footer__h3{
+ color: #FFF;
+width: 300px;
+font-family: Georgia;
+font-size: 35px;
+font-weight: 400;
+line-height: 45px;
+letter-spacing: 0.06em;
+text-align: left;
+
+}
+
+.footer__h4{
+    color: #F1CDB3;
+width: 260px;
+font-family: Georgia;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0.06em;
+text-align: left;
+
+}
+
+
+@media(max-width:1192px){
+    .friends{
+        width: 1200px;
+    }
+    .footer{
+        width: 1200px;
+    }
+}
+@media(max-width:768px){
+
+    .burger, .header__menu{
+        display: block;
+        z-index: 3;
+        padding-left: 40px;
+    }
+    .company{
+   display: block;
+        padding-top: 20px;
+    width: max-content;
+        text-align: center;
+    }
+    .company__img{
+        width: 100px;
+        height: 100px;
+    }
+    .company__h2{
+        font-family: 'Black Ops One', system-ui;
+     
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 115%;
+        color: white;
+    }
+    .company__p{
+      
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 115%;
+        font-family: 'IBM Plex Mono', monospace;
+        color: green; 
+    }
+    .header__nav{
+        flex-wrap: wrap;
+        position: absolute;
+        top: 0;
+        height: 100vh;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #292929;
+        z-index: 2;
+        transition: left 2s ease-in-out;
+        height: 1200px;
+
+    }
+    .header__menu{
+    color: #F1CDB3;
+    }
+    .header__nav1{
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .close{
+        left: -50%;
+    }
+    .open{
+        left: 0;
+    }
+.friends{
+    width: 1200px;
+}
+.friends__container{
+    justify-content: center;
+    gap: 50px; 
+}
+.footer__container{
+flex-direction: column;
+
+}
+.footer__img{
+    width: 500px;
+    margin: auto;
+
+}
+.footer__div{
+   justify-content: center;
+}
+}
+
+@media(max-width:477px){
+    .friends__container{
+        gap: 200px;
+       
+    }
+    .footer__div{
+        gap: 0px;
+    }
+}
+
+@media(max-width:477px){
+    .friends__container{
+        flex-direction: row-reverse;
+    }
+}
